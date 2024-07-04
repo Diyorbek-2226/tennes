@@ -3,127 +3,306 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tennis</title>
+    <link rel="icon" type="image/x-icon" href="/img/Logo.svg">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
 </head>
 <body>
-    <div class="main-wrapper">
-        <div class="main-img">
-            <div class="container">
-                 <nav class="nav">
-                    <div class="nav-log"> <img height="46" width="153" src="./img/logo.png" alt=""></div>
-                    <!-- < class="nav-items"> -->
-                        <ul class="nav-list">
-                            <li class="nav-item"><a href="" class="nav-link">Hello</a></li>
-                            <li class="nav-item"><a href="" class="nav-link">Hello</a></li>
-                            <li class="nav-item"><a href="" class="nav-link">Hello</a></li>
-                            <li class="nav-item"><a href="" class="nav-link">Hello</a></li>
-                            <li class="nav-item"><a href="" class="nav-link">Hello</a></li>
-                            <li class="nav-item"><a href="" class="nav-link">Hello</a></li>
-                            <li class="nav-item"><a href="" class="nav-link">Hello</a></li>
-                            <li class="nav-item"><a href="" class="nav-link">Hello</a></li>
-                        </ul>
-                    <!-- </nav> -->
-                    <div class="nav-icon">
-                        <img width="20" height="20" src="./img/you.png" alt=""><img width="20" height="20" src="./img/J.png" alt="">
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav_logo">
+               <a href="./"> <img src="./img/Logo.svg" alt=""></a>
+            </div>
+            <div class="icon_menu">
+                <i id="menu_icon" class='bx bx-menu'></i>
+            </div>
+            <ul  class="nav_list">
+                <li  class="nav-list"><a href="./">Главная</a></li>
+                <li class="nav-list"><a href="./klub.html">О клубе</a></li>
+                <li class="nav-list"><a href="">Турниры</a></li>
+                <li class="nav-list"><a href="">Услуги</a></li>
+                <li class="nav-list"><a href="./new.html">Детский теннис</a></li>
+                <li class="nav-list"><a href="">Галерея</a></li>
+                <li class="nav-list"><a href="">Цены</a></li>
+                <li class="nav-list"><a href="">Контакты</a></li>
+            </ul>
+            <ul class="nav_icons">
+                <li class="nav-icons">
+                    <img src="./img/youtube.svg" alt="">
+                </li>
+                <li class="nav-icons">
+                    <img src="./img/vkontact.svg" alt="">
+                </li>
+            </ul>
+        </div>
+        <div class="container_main">
+            <h1>
+                Петербургский <br>теннисный клуб  <br>имени М.А. Пасечникова
+            </h1>
+            <button class="nav_btn">
+<img src="./img/videosbtn.svg" alt="">
+<h3>
+    Посмотрите видео <br>о нашем клубе
+</h3>
+            </button>
+            <ul class="row">
+                <li class="col-3">
+                    <p>Услуги</p>
+                   <div style="display: flex; align-items: center; gap: 20px;">
+                     <h3>Аренда корта</h3>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.2515 20H2.50146C1.83842 20 1.20254 19.7366 0.733698 19.2678C0.264857 18.7989 0.00146484 18.163 0.00146484 17.5V3.75C0.00146484 3.08696 0.264857 2.45107 0.733698 1.98223C1.20254 1.51339 1.83842 1.25 2.50146 1.25H7.50147V3.75H2.50146V17.5H16.2515V12.5H18.7515V17.5C18.7515 18.163 18.4881 18.7989 18.0192 19.2678C17.5504 19.7366 16.9145 20 16.2515 20ZM9.62646 12.1337L7.86397 10.3663L15.7302 2.5H11.2515V0H20.0015V8.75H17.5015V4.26875L9.62646 12.1337Z" fill="white"/>
+                        </svg>
+                   </div>
+                        
+                </li>
+                <li class="col-3">
+                    <p>Услуги</p>
+                    <div style="display: flex; align-items: center; gap: 20px;">
+                      <h3>Аренда корта</h3>
+                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                         <path d="M16.2515 20H2.50146C1.83842 20 1.20254 19.7366 0.733698 19.2678C0.264857 18.7989 0.00146484 18.163 0.00146484 17.5V3.75C0.00146484 3.08696 0.264857 2.45107 0.733698 1.98223C1.20254 1.51339 1.83842 1.25 2.50146 1.25H7.50147V3.75H2.50146V17.5H16.2515V12.5H18.7515V17.5C18.7515 18.163 18.4881 18.7989 18.0192 19.2678C17.5504 19.7366 16.9145 20 16.2515 20ZM9.62646 12.1337L7.86397 10.3663L15.7302 2.5H11.2515V0H20.0015V8.75H17.5015V4.26875L9.62646 12.1337Z" fill="white"/>
+                         </svg>
                     </div>
-                </nav>
+                </li>
+                <li class="col-3">
+                    <p>Услуги</p>
+                    <div style="display: flex; align-items: center; gap: 20px;">
+                      <h3>Аренда корта</h3>
+                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                         <path d="M16.2515 20H2.50146C1.83842 20 1.20254 19.7366 0.733698 19.2678C0.264857 18.7989 0.00146484 18.163 0.00146484 17.5V3.75C0.00146484 3.08696 0.264857 2.45107 0.733698 1.98223C1.20254 1.51339 1.83842 1.25 2.50146 1.25H7.50147V3.75H2.50146V17.5H16.2515V12.5H18.7515V17.5C18.7515 18.163 18.4881 18.7989 18.0192 19.2678C17.5504 19.7366 16.9145 20 16.2515 20ZM9.62646 12.1337L7.86397 10.3663L15.7302 2.5H11.2515V0H20.0015V8.75H17.5015V4.26875L9.62646 12.1337Z" fill="white"/>
+                         </svg>
+                    </div>
+                        
+                </li>
+                <li class="col-3">
+                    <p>Услуги</p>
+                   <div style="display: flex; align-items: center; gap: 20px;">
+                     <h3>Аренда корта</h3>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.2515 20H2.50146C1.83842 20 1.20254 19.7366 0.733698 19.2678C0.264857 18.7989 0.00146484 18.163 0.00146484 17.5V3.75C0.00146484 3.08696 0.264857 2.45107 0.733698 1.98223C1.20254 1.51339 1.83842 1.25 2.50146 1.25H7.50147V3.75H2.50146V17.5H16.2515V12.5H18.7515V17.5C18.7515 18.163 18.4881 18.7989 18.0192 19.2678C17.5504 19.7366 16.9145 20 16.2515 20ZM9.62646 12.1337L7.86397 10.3663L15.7302 2.5H11.2515V0H20.0015V8.75H17.5015V4.26875L9.62646 12.1337Z" fill="white"/>
+                        </svg>
+                   </div>  
+                </li>
+              </ul>
+        </div>
+    </nav>
+    <!-- Main qismi uchun -->
+    <main>
+        <div class="container">
+            <ul class="row">
+                <li data-aos="zoom-out-right" class="col-4">
+                    <div class="main_card1">
+             <span>  <p>5 летних </p>
+                <p>грунтовых кортов</p></span>       
+                    </div>
+                </li>
+                <li data-aos="zoom-in-down" class="col-4">
+                    <div class="main_card2">
+             <span> <p>Зал с покрытием </p>
+                <p>“Искусственная трава”</p></span>          
+                    </div>
+                </li>
+                <li data-aos="zoom-out-left" class="col-4">
+                    <div class="main_card3">
+             <span> <p>Зал с покрытием </p>
+                <p>“Хард”</p></span>          
+                    </div>
+                </li>
+            </ul>
+          <div class="main_image_titles">
+            <div   data-aos="fade-right" class="main_left">
+                <img src="./img/tenis.svg" alt="">
+            </div>
+            <div data-aos="fade-left" class="main_right">
+                <h2 style="padding: 20px 0px;">Спортивный клуб</h2>
+                <p>Imperdiet lorem ipsum, pulvinar aliquet sit ultricies in sit turpis. <br>
+                     Ultricies erat pretium risus quam tincidunt non viverra porttitor. <br>
+                      Sollicitudin enim nunc in nisi donec vel. Blandit mauris vitae amet <br>
+                     aliquet ultrices mauris pellentesque. Non ipsum commodo, sit mi sit <br>
+                      netus aenean nisl. ]Donec sit pellentesque enim, vestibulum. </p>
+                <p style="padding: 10px;">Condimentum hac adipiscing purus in augue nisi. Convallis ut nisi.</p>
                 
-
-            </div>
-
-            <hr>
-            <div class="container">
-                <div class="main-text">
-                    <h1 class="main-text-h1">Петербургский  теннисный клуб <br>  имени М.А. Пасечникова</h1>
-                    <div class="main-play-icon">
-                        <div class="main-play-wrapper">
-                            <button class="main-play-btn">
-                                <img height="16" width="20" src="./img/play.png" alt="">
-                            </button>
-                        </div>
-                        <p></p>
-                    </div>
-                </div>
-
-                <div class="row main-info-top-items">
-                    <div class="col-3">
-                        <div class="main-tein-info">
-                            <h1>Услуги</h1>
-                            <div class="dfjcbaic">
-                                <h1>Сборы команд</h1>
-                                <img width="30" height="30" src="./img/arrow-top.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="main-tein-info">
-                            <h1>Услуги</h1>
-                            <div class="dfjcbaic">
-                                <h1>Сборы команд</h1>
-                                <img width="30" height="30" src="./img/arrow-top.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="main-tein-info">
-                            <h1>Услуги</h1>
-                            <div class="dfjcbaic">
-                                <h1>Сборы команд</h1>
-                                <img width="30" height="30" src="./img/arrow-top.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="main-tein-info">
-                            <h1>Услуги</h1>
-                            <div class="dfjcbaic">
-                                <h1>Сборы команд</h1>
-                                <img width="30" height="30" src="./img/arrow-top.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          <div class="users">
-            <div class="container">
-                <div class="row">
-                    <div class="col-2">
-                        <div class="users-info">
-                            <img width="150px" height="220px" src="./img/user-1.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="users-info">
-                            <img width="150px" height="220px" src="./img/user-1.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="users-info">
-                            <img width="150px" height="220px" src="./img/user-1.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="users-info">
-                            <img width="150px" height="220px" src="./img/user-1.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="users-info">
-                            <img width="150px" height="220px" src="./img/user-1.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="users-info">
-                            <img width="150px" height="220px" src="./img/user-1.png" alt="">
-                        </div>
-                    </div>
-                </div>
+                <h4>
+                    Ornare orci ut dictum nulla fames. 
+                </h4>
+                <ul class="main_title">
+                    <li class="main-title">
+                        Euismod diam, vel venenatis bibendum sodales sem hendrerit <br> vulputate sagittis. 
+                    </li>
+                    <li class="main-title">
+                        Nisl senectus sed malesuada donec. Interdum malesuada <br>bibendum imperdiet elementum auctor vitae in. 
+                    </li>
+                    <li class="main-title">
+                        Quam purus ornare dictum pharetra. Sed viverra tellus <br> sollicitudin urna, sagittis. 
+                    </li>
+                    <li class="main-title">
+                        Scelerisque urna senectus commodo, nam. Donec nibh <br> tempus imperdiet nisi, tincidunt mus egestas nisl nullam.
+                    </li>
+                </ul>
             </div>
           </div>
-        </div>
-
+<div style="margin: 50px 0px;" class="main_title_item">
+    <h1  data-aos="zoom-out-right"  style="font-size: 36px;" class="list_main">
+        Тренерский состав
+    </h1>
+    <span data-aos="fade-left" style="display: flex; align-items: center;gap: 20px;">
+        <img style="width: 45; height: 45;" src="./img/left.svg" alt="">
+        <img src="./img/left.svg" alt="">
+    </span>
+</div>
+<ul class="row">
+    <li class="col-2">
+<div class="card_border_main">
+<img src="./img/col-2.1.svg" alt="">
+</div>
+<span>
+    <h4 style="padding: 10px 0px;">Pulvinar <br>
+        aliquam</h4>
+        <p>Arcu elit massa amet turpis <br> vel consequat pellentesque sit. </p>
+</span>
+    </li>
+    <li class="col-2">
+        <div class="card_border_main">
+            <img  src="./img/col-2.2.svg" alt="">
+            </div>
+            <span>
+                <h4 style="padding: 10px 0px;"> Pretium  <br>
+                    odio</h4>
+                    <p>Bibendum aliquam volutpat <br> nisl a duis in nisi. In sed <br> commodo lorem morbi quis.  </p>
+            </span>
+    </li>
+    <li class="col-2">
+        <div class="card_border_main">
+            <img src="./img/col-2.3.svg" alt="">
+            </div>
+            <span>
+                <h4 style="padding: 10px 0px;">Aliquet  <br>
+                    consectetur</h4>
+                    <p>Id sapien sed nibh fermentum <br> massa posuere ipsum. Diam in. </p>
+            </span>
+    </li>
+    <li class="col-2">
+        <div class="card_border_main">
+            <img src="./img/col-2.4.svg" alt="">
+            </div>
+            <span>
+                <h4 style="padding: 10px 0px;">Blandit <br>
+                    augue</h4>
+                    <p>Scelerisque accumsan pretium <br> justo, vitae elit. Dolor semper <br> morbi sit auctor vel diam eros. </p>
+            </span>
+    </li>
+    <li class="col-2">
+        <div class="card_border_main">
+            <img src="./img/col-2.5.svg" alt="">
+            </div>
+            <span>
+                <h4 style="padding: 10px 0px;">Lorem <br>
+                    lacus</h4>
+                    <p>Adipiscing amet, viverra  <br>dignissim egestas. Sed nibh <br> egestas venenatis faucibus. </p> 
+            </span>
+    </li>
+    <li class="col-2">
+        <div class="card_border_main">
+            <img src="./img/col-2.6.svg" alt="">
+            </div>
+            <span>
+                <h4 style="padding: 10px 0px;">Sed <br>
+                    erat</h4>
+                    <p>Quis ullamcorper pretium <br> lacus risus tellus dolor etiam.  </p>
+            </span>
+    </li>
+</ul>
+<!-- contact qismi -->
+<div class="main_contact">
+    <div data-aos="flip-up" class="main_left_contact">
+        <h2 style="font-size: 36px;">
+            Цены и абонементы
+        </h2>
+        <ul class="contact_list">
+            <li class="contact-list">
+                <h3>
+                    Зимний сезон 2021-2022
+                </h3>
+                <img src="./img/arrov_right.svg" alt="">
+            </li>
+            <li class="contact-list">
+                <h3>
+                    Абонементы
+                </h3>
+                <img src="./img/arrov_right.svg" alt="">
+            </li>
+            <li class="contact-list">
+                <h3>
+                    Скидки
+                </h3>
+                <img src="./img/arrov_right.svg" alt="">
+            </li>
+            <li class="contact-list">
+                <h3>
+                    Дополнительные услуги
+                </h3>
+                <img src="./img/arrov_right.svg" alt="">
+            </li>
+            
+        </ul>
     </div>
+    <div data-aos="flip-right" style="width: 100%;" class="main_right_contact">
+        <span style="display: flex; align-items: center; justify-content: space-between; ">
+            <h2 style="font-size: 36px;">
+                Услуги
+            </h2>
+            <span style="display: flex; align-items: center; gap: 20px; ">
+                <img style="width: 45px; height: 45px; background-color:#8D86C9;" src="./img/Vector (2).svg" alt="">
+                <img style="width: 45px; height: 45px; background-color:#8D86C9;" src="./img/Vector (1).svg" alt="">
+            </span>
+        </span>
+        <div class="contact-main_card">
+            <div class="contact_main_card">
+                <h2 style="font-size: 32px; padding-bottom: 15px; padding-left: 10px; color: white;">
+                    Уютное кафе
+                </h2>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+    </main>
+    <!-- futer qism -->
+     <Footer>
     
+            <div class="container">
+                <div class="nav_logo">
+                   <a href="./"> <img src="./img/futer.svg" alt=""></a>
+                </div>
+                <ul class="nav_list">
+                    <li class="nav-list"><a href="">Главная</a></li>
+                    <li class="nav-list"><a href="./klub.html">О клубе</a></li>
+                    <li class="nav-list"><a href="">Турниры</a></li>
+                    <li class="nav-list"><a href="">Услуги</a></li>
+                    <li class="nav-list"><a href="">Детский теннис</a></li>
+                    <li class="nav-list"><a href="">Галерея</a></li>
+                    <li class="nav-list"><a href="">Цены</a></li>
+                    <li class="nav-list"><a href="">Контакты</a></li>
+                </ul>
+                <ul class="nav_icons">
+                    <li class="nav-icons">
+                        <img src="./img/youtube.svg" alt="">
+                    </li>
+                    <li class="nav-icons">
+                        <img src="./img/vkontact.svg" alt="">
+                    </li>
+                </ul>
+            </div>
+     </Footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
